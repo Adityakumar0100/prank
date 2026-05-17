@@ -39,3 +39,61 @@ button {
 /*.no:hover{
     transform: translate(100px,100px);
 }*/
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    padding: 40px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .yes,
+  .no {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .container {
+    padding: 30px 15px;
+  }
+
+  .yes,
+  .no {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
